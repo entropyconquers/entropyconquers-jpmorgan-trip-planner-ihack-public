@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "jp-morgan-chase-trip-planner",
+    "builds": [
+       { "src": "index.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/index.js" }
+    ]
+ }
